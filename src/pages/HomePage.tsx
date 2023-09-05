@@ -221,14 +221,14 @@ const HomePage: Component = () => {
       </section>
       {/* Speakers section */}
       <section class="bg-white px-8 pb-4 pt-8 text-black">
-        <div class="flex py-8 text-center">
+        <div class="animate-on-scroll-in-view flex py-8 text-center">
           <h2 class="mx-auto text-center text-3xl">
             SPEAKERS
             <span class="mx-auto my-1 block h-0.5 max-w-full bg-black"></span>
           </h2>
         </div>
         <div class="py-4">
-          <div class="mx-auto grid w-2/3 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="animate-on-scroll-in-view animation-delay-200 mx-auto grid w-2/3 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Profile
               src="/hongo-web3-valley/images/speakers/miyaguchi.png"
               alt="宮口あや氏"
@@ -284,14 +284,14 @@ const HomePage: Component = () => {
       </section>
       {/* Judges section */}
       <section class="bg-white px-8 pb-8 pt-4 text-black">
-        <div class="flex py-8 text-center">
+        <div class="animate-on-scroll-in-view flex py-8 text-center">
           <h2 class="mx-auto text-center text-3xl">
             JUDGES
             <span class="mx-auto my-1 block h-0.5 max-w-full bg-black"></span>
           </h2>
         </div>
         <div class="py-4">
-          <div class="mx-auto grid w-2/3 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="animate-on-scroll-in-view animation-delay-200 mx-auto grid w-2/3 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Profile
               src="/hongo-web3-valley/images/judges/mabuchi.jpg"
               alt="馬淵邦美氏"
@@ -355,21 +355,21 @@ const HomePage: Component = () => {
               name="Dan Kim"
               company="Coinbase株式会社"
               title="VP Business Development"
-              desciption="Dan Kim is VP Business Development at Coinbase, the world’s most trusted cryptocurrency exchange where he leads strategic partnerships with developers, creators, and users of the global web3 ecosystem. Dan also serves as Coinbase’s Head of Listings, and works with crypto project teams from all around the world so that their tokens can be bought, sold, and held in the safest way by more than 100 million Coinbase customers. Prior to joining Coinbase, Dan worked at Tesla as Global Head of Sales & Delivery, where he led a team of over 3,000 people to drive the zero-to-scale growth of Model 3. Dan also worked at Airbnb as Head of Supply for Airbnb Plus, a collection of premium homes with superior hospitality, comfort and design. While Dan’s first jobs were in investment banking and structured finance, he spent the majority of his career working for founder-led, mission-oriented technology companies. Dan also founded Red Mango, a health-focused frozen yogurt and smoothie franchise that he scaled to over 300 retail stores before selling the company to a private equity firm. Dan graduated from UC Berkeley’s Haas School of Business, and lives in Oakland, CA with his fiancée. His interests span from web3 gaming and interactive art to empowering creators and discovering new ways to converge the physical world with the digital universe."
+              desciption="Dan Kim is VP Business Development at Coinbase, the world’s most trusted cryptocurrency exchange where he leads strategic partnerships with developers, creators, and users of the global web3 ecosystem. Dan also serves as Coinbase’s Head of Listings, and works with crypto project teams from all around the world so that their tokens can be bought, sold, and held in the safest way by more than 200 million Coinbase customers. Prior to joining Coinbase, Dan worked at Tesla as Global Head of Sales & Delivery, where he led a team of over 3,000 people to drive the zero-to-scale growth of Model 3. Dan also worked at Airbnb as Head of Supply for Airbnb Plus, a collection of premium homes with superior hospitality, comfort and design. While Dan’s first jobs were in investment banking and structured finance, he spent the majority of his career working for founder-led, mission-oriented technology companies. Dan also founded Red Mango, a health-focused frozen yogurt and smoothie franchise that he scaled to over 300 retail stores before selling the company to a private equity firm. Dan graduated from UC Berkeley’s Haas School of Business, and lives in Oakland, CA with his fiancée. His interests span from web3 gaming and interactive art to empowering creators and discovering new ways to converge the physical world with the digital universe."
             />
           </div>
         </div>
       </section>
       {/* Mentors section */}
       <section class="bg-white px-8 pb-8 pt-4 text-black">
-        <div class="flex py-8 text-center">
+        <div class="animate-on-scroll-in-view flex py-8 text-center">
           <h2 class="mx-auto text-center text-3xl">
             MENTORS
             <span class="mx-auto my-1 block h-0.5 max-w-full bg-black"></span>
           </h2>
         </div>
         <div class="py-4">
-          <div class="mx-auto grid w-4/5 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div class="animate-on-scroll-in-view animation-delay-200 mx-auto grid w-4/5 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
             <Profile
               src="/hongo-web3-valley/images/mentors/nakamura.jpg"
               alt="中村智浩氏"
@@ -401,14 +401,14 @@ const HomePage: Component = () => {
       </section>
       {/* Mentors section */}
       <section class="bg-white px-8 pb-8 pt-4 text-black">
-        <div class="flex py-8 text-center">
+        <div class="animate-on-scroll-in-view flex py-8 text-center">
           <h2 class="mx-auto text-center text-3xl">
             MEMBERS
             <span class="mx-auto my-1 block h-0.5 max-w-full bg-black"></span>
           </h2>
         </div>
         <div class="py-4">
-          <div class="mx-auto grid w-4/5 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div class="animate-on-scroll-in-view animation-delay-200 mx-auto grid w-4/5 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
             <Profile
               src="/hongo-web3-valley/images/members/ogawa.jpg"
               alt="小川椋徹氏"
