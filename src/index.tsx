@@ -8,7 +8,7 @@ const root = document.getElementById("root");
 
 if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   throw new Error(
-    "Root element not found. Did you forget to add it to your index.html? Or maybe the id attribute got misspelled?"
+    "Root element not found. Did you forget to add it to your index.html? Or maybe the id attribute got misspelled?",
   );
 }
 
@@ -18,5 +18,18 @@ render(
       <App />
     </Router>
   ),
-  root!
+  root!,
 );
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate-fade-in-bottom");
+      return;
+    }
+  });
+});
+
+document.querySelectorAll(".animate-on-scroll-in-view").forEach((element) => {
+  observer.observe(element);
+});
