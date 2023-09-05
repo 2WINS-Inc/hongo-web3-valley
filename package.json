@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build && mv dist/hongo-web3-valley/* dist && sed -i 's/assets/hongo-web3-valley\/assets/g' dist/index.html && cp dist/index.html dist/404.html && mv dist docs && rm -r dist",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "license": "MIT",
