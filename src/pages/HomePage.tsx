@@ -281,6 +281,12 @@ const HomePage: Component = () => {
             />
           </div>
         </div>
+        <div class="mx-auto p-4 md:w-4/5 lg:w-3/4 lg:p-8">
+          <img
+            src="/hongo-web3-valley/images/banners/speakers.png"
+            alt="登壇者バナー"
+          />
+        </div>
       </section>
       {/* Judges section */}
       <section class="bg-white px-8 pb-8 pt-4 text-black">
@@ -358,6 +364,12 @@ const HomePage: Component = () => {
               desciption="Dan Kim is VP Business Development at Coinbase, the world’s most trusted cryptocurrency exchange where he leads strategic partnerships with developers, creators, and users of the global web3 ecosystem. Dan also serves as Coinbase’s Head of Listings, and works with crypto project teams from all around the world so that their tokens can be bought, sold, and held in the safest way by more than 200 million Coinbase customers. Prior to joining Coinbase, Dan worked at Tesla as Global Head of Sales & Delivery, where he led a team of over 3,000 people to drive the zero-to-scale growth of Model 3. Dan also worked at Airbnb as Head of Supply for Airbnb Plus, a collection of premium homes with superior hospitality, comfort and design. While Dan’s first jobs were in investment banking and structured finance, he spent the majority of his career working for founder-led, mission-oriented technology companies. Dan also founded Red Mango, a health-focused frozen yogurt and smoothie franchise that he scaled to over 300 retail stores before selling the company to a private equity firm. Dan graduated from UC Berkeley’s Haas School of Business, and lives in Oakland, CA with his fiancée. His interests span from web3 gaming and interactive art to empowering creators and discovering new ways to converge the physical world with the digital universe."
             />
           </div>
+        </div>
+        <div class="mx-auto p-4 md:w-4/5 lg:w-3/4 lg:p-8">
+          <img
+            src="/hongo-web3-valley/images/banners/judges.png"
+            alt="審査員バナー"
+          />
         </div>
       </section>
       {/* Mentors section */}
