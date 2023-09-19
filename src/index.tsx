@@ -20,16 +20,3 @@ render(
   ),
   root!,
 );
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("animate-fade-in-bottom");
-      return;
-    }
-  });
-});
-
-document.querySelectorAll(".animate-on-scroll-in-view").forEach((element) => {
-  observer.observe(element);
-});
