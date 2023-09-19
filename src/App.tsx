@@ -1,7 +1,7 @@
 import type { Component } from "solid-js";
 import { Route, Routes } from "@solidjs/router";
 import { Header } from "./components";
-import { HomePage } from "./pages";
+import { Hackathon2022Page, HomePage } from "./pages";
 
 const App: Component = () => {
   return (
@@ -9,6 +9,7 @@ const App: Component = () => {
       <Header />
       <main>
         <Routes>
+          <Route path="/hackathon-2022" component={Hackathon2022Page} />
           <Route path="*" component={HomePage} />
         </Routes>
       </main>

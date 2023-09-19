@@ -7,14 +7,16 @@ const Header: Component = () => {
       class="sticky top-0 z-10 flex h-20 w-full flex-row justify-between bg-black px-4 
            shadow-md md:px-8"
     >
-      <div class="my-auto flex w-2/3 md:w-1/2 lg:w-1/4">
-        <A href="/hackathon-2022">
-          <img src="/images/logo/logo_wide.png" alt="ログ画像" class="w-full" />
-        </A>
-      </div>
-      <ul class="my-auto flex flex-row gap-4 md:gap-8 lg:mr-4">
-        <NavItem href="/hackathon-2023" text="2023" disabled={true} />
-        <NavItem href="/hackathon-2022" text="2022" disabled={false} />
+      <A href="/" class="my-auto flex w-2/3 cursor-pointer md:w-1/2 lg:w-1/4">
+        <img src="/images/logo/logo_wide.png" alt="ログ画像" class="w-full" />
+      </A>
+      <ul class="my-auto flex flex-row gap-2 md:gap-8 lg:mr-4">
+        <NavItem href="/hackathon-2023" text="Hackathon 2023" disabled={true} />
+        <NavItem
+          href="/hackathon-2022"
+          text="Hackathon 2022"
+          disabled={false}
+        />
       </ul>
     </nav>
   );
@@ -27,7 +29,7 @@ const NavItem: Component<{ href: string; text: string; disabled: boolean }> = (
 
   return (
     <li
-      class="group relative lg:text-lg"
+      class="group relative w-fit text-end text-sm md:text-start lg:text-lg"
       classList={{
         "text-gray-600 cursor-not-allowed": props.disabled,
         "text-white": !props.disabled,
@@ -51,7 +53,7 @@ const NavItem: Component<{ href: string; text: string; disabled: boolean }> = (
         <A href={props.href}>
           {props.text}
           <span
-            class="block h-0.5 max-w-0 bg-white transition-all duration-300 group-hover:max-w-full"
+            class="hidden h-0.5 max-w-0 bg-white transition-all duration-300 group-hover:max-w-full md:block"
             classList={{ "max-w-full": location.pathname === props.href }}
           ></span>
         </A>
