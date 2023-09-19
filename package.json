@@ -1,7 +1,7 @@
 {
   "name": "hongo_web3_valley",
   "version": "1.0.0",
-  "homepage": "https://2wins-inc.github.io/hongo-web3-valley/",
+  "homepage": "https://hongo-web3-valley.2winsinc.com",
   "description": "The homepage of Hongo Web3 Valley.",
   "scripts": {
     "start": "vite",
