@@ -8,17 +8,13 @@ const Header: Component = () => {
            shadow-md md:px-8"
     >
       <div class="my-auto flex w-2/3 md:w-1/2 lg:w-1/4">
-        <A href="/hongo-web3-valley/2022">
-          <img
-            src="/hongo-web3-valley/images/logo/logo_wide.png"
-            alt="ログ画像"
-            class="w-full"
-          />
+        <A href="/hackathon-2022">
+          <img src="/images/logo/logo_wide.png" alt="ログ画像" class="w-full" />
         </A>
       </div>
       <ul class="my-auto flex flex-row gap-4 md:gap-8 lg:mr-4">
-        <NavItem href="/hongo-web3-valley/2023" text="2023" disabled={true} />
-        <NavItem href="/hongo-web3-valley/2022" text="2022" disabled={false} />
+        <NavItem href="/hackathon-2023" text="2023" disabled={true} />
+        <NavItem href="/hackathon-2022" text="2022" disabled={false} />
       </ul>
     </nav>
   );
