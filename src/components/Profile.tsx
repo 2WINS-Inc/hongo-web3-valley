@@ -13,20 +13,32 @@ const Profile: Component<{
   const toggle = () => setClicked((prev) => !prev);
 
   return (
-    <div class="cursor-pointer group perspective h-[360px]" onclick={toggle}>
+    <div
+      class="group aspect-square w-full perspective"
+      classList={{
+        "cursor-pointer":
+          props.desciption !== "" && props.desciption !== undefined,
+      }}
+      onclick={toggle}
+    >
       <div
-        class="relative preserve-3d w-full h-full duration-500"
-        classList={{ "my-rotate-y-180": clicked() }}
+        class="relative h-full w-full duration-500 preserve-3d"
+        classList={{
+          "my-rotate-y-180":
+            clicked() &&
+            props.desciption !== "" &&
+            props.desciption !== undefined,
+        }}
       >
         {/* Front side */}
-        <div class="absolute backface-hidden text-center w-full h-full">
+        <div class="absolute h-full w-full text-center backface-hidden">
           <img
-            src={props.src}
+            src={props.src !== "" ? props.src : "/images/speakers/default.webp"}
             alt={props.alt}
-            class="h-56 w-56 mx-auto rounded-full object-cover"
+            class="mx-auto h-56 w-56 rounded-full object-cover"
           />
-          <p class="mt-3 mb-1 text-lg">{props.name}</p>
-          <p class="text-sm break-keep">
+          <p class="mb-1 mt-3 text-lg">{props.name}</p>
+          <p class="break-keep text-sm">
             {props.company}
             <Show when={props.dept}>
               <br />
@@ -39,14 +51,12 @@ const Profile: Component<{
           </p>
         </div>
         {/* Back side */}
-        <div class="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 rounded-3xl p-6 overflow-scroll">
+        <div class="absolute h-full w-full overflow-scroll rounded-3xl bg-gray-100 p-6 my-rotate-y-180 backface-hidden">
           <p class="text-lg font-bold text-black">{props.name}</p>
-          <p class="my-2 text-sm text-gray-500 font-medium">
+          <p class="my-2 text-sm font-medium text-gray-500">
             {props.company} {props.dept} {props.title}
           </p>
-          <p class="my-1 text-xs text-black">
-            {props.desciption}
-          </p>
+          <p class="my-1 text-xs text-black">{props.desciption}</p>
         </div>
       </div>
     </div>

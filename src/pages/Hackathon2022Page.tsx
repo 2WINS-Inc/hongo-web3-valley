@@ -40,7 +40,7 @@ const Hackathon2022Page: Component = () => {
                   href="https://prtimes.jp/main/html/rd/p/000000005.000111066.html"
                   target="_blank"
                 >
-                  <button class="my-2 cursor-pointer rounded-sm bg-white px-8 py-2 text-black shadow-lg transition-all duration-300 hover:bg-black hover:text-white">
+                  <button class="my-2 transform-gpu cursor-pointer rounded-sm bg-white px-8 py-2 text-black shadow-lg transition-all duration-300 hover:bg-black hover:text-white">
                     Event Report 2022
                   </button>
                 </a>
@@ -457,7 +457,7 @@ const Hackathon2022Page: Component = () => {
         />
       </section>
       {/* Twitter section */}
-      <section class="max-h-screen overflow-y-scroll bg-black p-8 text-white hide-scrollbar">
+      <section class="hide-scrollbar max-h-screen overflow-y-scroll bg-black p-8 text-white">
         <div class="mx-auto w-full text-center md:w-3/4 lg:w-1/2">
           <a
             href="https://twitter.com/todaiweb3?ref_src=twsrc%5Etfw"

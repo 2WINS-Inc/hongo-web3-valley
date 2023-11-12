@@ -8,6 +8,9 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
+    fontFamily: {
+      serif: ["Noto Serif JP", "serif"],
+    },
     extend: {
       animation: {
         "fade-in-fwd":
