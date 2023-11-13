@@ -285,7 +285,7 @@ const Hackathon2023Page: Component = () => {
               desciption="東京大学工学系研究科、材料物性の研究を経て現在はScience of Science分野博士課程に在籍。self-organizing collaborative research(研究プロジェクトの自己組織化)とacademic mechanism(知識生産メカニズム)に関する研究を行う。"
             />
             <Profile
-              src=""
+              src="/images/speakers_2023/osawa.webp"
               alt="大澤哲也氏"
               name="大澤 哲也"
               company="Co-Founder of SINRA"
@@ -350,10 +350,31 @@ const Hackathon2023Page: Component = () => {
           </h2>
         </div>
         <div class="pb-20 pt-4">
-          <div class="mx-auto grid w-5/6 grid-cols-1 gap-x-8 gap-y-24 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:grid-cols-3 lg:gap-y-16">
-            <Profile src="" alt="メンバー氏" name="メンバー" company="" />
-            <Profile src="" alt="メンバー氏" name="メンバー" company="" />
-            <Profile src="" alt="メンバー氏" name="メンバー" company="" />
+          <div class="mx-auto grid w-5/6 grid-cols-1 gap-x-8 gap-y-24 md:w-3/4 md:grid-cols-2 lg:w-5/6 lg:grid-cols-4 lg:gap-y-16">
+            <Profile
+              src=""
+              alt="高木俊介氏"
+              name="高木 俊介"
+              company="本郷web3バレー副代表"
+            />
+            <Profile
+              src=""
+              alt="徳永ひかる氏"
+              name="徳永 ひかる"
+              company="本郷web3バレー副代表"
+            />
+            <Profile
+              src=""
+              alt="中島伶那氏"
+              name="中島 伶那"
+              company="本郷web3バレー共同代表"
+            />
+            <Profile
+              src=""
+              alt="中島伶那氏"
+              name="松浦 拓夢"
+              company="本郷web3バレー共同代表"
+            />
           </div>
         </div>
       </section>
