@@ -111,6 +111,11 @@ const Hackathon2023Page: Component = () => {
               class="m-auto h-20 object-contain md:h-24"
             />
             <img
+              src="/images/partners_2023/akindo.webp"
+              alt="Akindo"
+              class="m-auto h-20 object-contain md:h-24"
+            />
+            <img
               src="/images/partners_2023/wecreate.webp"
               alt="We Create"
               class="m-auto h-20 object-contain md:h-24"
@@ -350,28 +355,34 @@ const Hackathon2023Page: Component = () => {
           </h2>
         </div>
         <div class="pb-20 pt-4">
-          <div class="mx-auto grid w-5/6 grid-cols-1 gap-x-8 gap-y-24 md:w-3/4 md:grid-cols-2 lg:w-5/6 lg:grid-cols-4 lg:gap-y-16">
+          <div class="mx-auto grid w-5/6 grid-cols-1 gap-x-8 gap-y-24 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:grid-cols-3 lg:gap-y-16">
             <Profile
-              src=""
+              src="/images/members_2023/sako.webp"
+              alt="迫嵩明氏"
+              name="迫 嵩明"
+              company="本郷web3バレー共同代表"
+            />
+            <Profile
+              src="/images/members_2023/takagi.webp"
               alt="高木俊介氏"
               name="高木 俊介"
               company="本郷web3バレー副代表"
             />
             <Profile
-              src=""
+              src="/images/members_2023/tokunaga.webp"
               alt="徳永ひかる氏"
               name="徳永 ひかる"
               company="本郷web3バレー副代表"
             />
             <Profile
-              src=""
+              src="/images/members_2023/nakajima.webp"
               alt="中島伶那氏"
               name="中島 伶那"
               company="本郷web3バレー共同代表"
             />
             <Profile
-              src=""
-              alt="中島伶那氏"
+              src="/images/members_2023/matsuura.webp"
+              alt="松浦拓夢氏"
               name="松浦 拓夢"
               company="本郷web3バレー共同代表"
             />
