@@ -198,12 +198,12 @@ const Hackathon2023Page: Component = () => {
             <img
               src="/images/partners_2023/nagoya.webp"
               alt="nagoya"
-              class="m-auto aspect-auto h-full object-cover"
+              class="m-auto aspect-auto object-contain"
             />
             <img
               src="/images/partners_2023/keio.webp"
               alt="keio"
-              class="m-auto aspect-auto h-full object-cover"
+              class="m-auto aspect-auto object-contain"
             />
           </div>
         </div>
@@ -474,12 +474,19 @@ const Hackathon2023Page: Component = () => {
               company="CryptoGames株式会社 CTO"
             />
             <Profile
-              src="/images/judges_2023/seto.webp"
+              src=""
               alt="白井寛之氏"
               name="白井 寛之"
               company="CryptoGames Blockchain Engineer"
             />
           </div>
+        </div>
+        <div class="mx-auto mt-20 w-full lg:mt-10 lg:w-2/3">
+          <img
+            src="/images/judges_2023/flyer.webp"
+            alt="フライヤー"
+            class="aspect-auto object-contain"
+          />
         </div>
       </section>
       {/* Members section */}
