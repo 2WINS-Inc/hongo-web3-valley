@@ -57,12 +57,69 @@ const Hackathon2023Page: Component = () => {
             <span class="mx-auto my-1 block h-0.5 max-w-full bg-black"></span>
           </h2>
         </div>
-        <div class="mx-auto w-full md:w-1/2">
-          <img
-            src="/images/sponsors_2023/axell.webp"
-            alt="AXELL"
-            class="m-auto h-20 object-contain p-4 md:h-24"
-          />
+        {/* Gold Sponsors */}
+        <div class="space-y-4 py-4 text-center">
+          <h3 class="text-xl md:p-4">GOLD SPONSORS</h3>
+          <div class="mx-auto grid w-1/2 grid-cols-1 lg:w-1/6">
+            <img
+              src="/images/sponsors_2023/axell.webp"
+              alt="AXELL"
+              class="m-auto aspect-auto object-contain"
+            />
+          </div>
+        </div>
+        {/* Silver Sponsors */}
+        <div class="space-y-4 py-4 text-center">
+          <h3 class="text-xl md:p-4">SILVER SPONSORS</h3>
+          <div class="mx-auto grid w-1/2 grid-cols-1 lg:w-1/6">
+            <img
+              src="/images/sponsors_2023/cryptobase.webp"
+              alt="CryptoBase"
+              class="m-auto aspect-auto object-contain"
+            />
+          </div>
+        </div>
+        {/* Bronze Sponsors */}
+        <div class="space-y-4 py-4 text-center">
+          <h3 class="text-xl md:p-4">BRONZE SPONSORS</h3>
+          <div class="mx-auto grid w-11/12 grid-cols-3 gap-4 lg:w-1/2 lg:gap-8">
+            <img
+              src="/images/sponsors_2023/tecotec.webp"
+              alt="TecoTec"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/sponsors_2023/cryptogames.webp"
+              alt="cryptogames"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/sponsors_2023/skyland.webp"
+              alt="skyland"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/sponsors_2023/akindo.webp"
+              alt="akindo"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/sponsors_2023/cmps.webp"
+              alt="cmps"
+              class="m-auto aspect-auto object-contain"
+            />
+          </div>
+        </div>
+        {/* Global Partner */}
+        <div class="space-y-8 py-4 text-center">
+          <h3 class="text-xl md:p-4">GLOBAL PARTNER</h3>
+          <div class="mx-auto grid w-2/3 grid-cols-1 lg:w-1/4">
+            <img
+              src="/images/sponsors_2023/pacificmeta.webp"
+              alt="pacificmeta"
+              class="m-auto aspect-auto object-contain"
+            />
+          </div>
         </div>
       </section>
       {/* Partners section */}
@@ -73,72 +130,80 @@ const Hackathon2023Page: Component = () => {
             <span class="mx-auto my-1 block h-0.5 max-w-full bg-black"></span>
           </h2>
         </div>
-        <div class="my-12 text-center lg:py-4">
-          <div class="mx-auto grid w-full grid-cols-2 gap-y-16 md:grid-cols-3 lg:w-4/5 lg:grid-cols-4">
+        {/* Global Partners */}
+        <div class="space-y-8 py-4 text-center">
+          <h3 class="text-xl md:p-4">PARTNERS</h3>
+          <div class="mx-auto grid w-11/12 grid-cols-4 gap-4 lg:w-1/2 lg:gap-8">
             <img
               src="/images/partners_2023/astar.webp"
-              alt="ASTAR"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="astar"
+              class="m-auto aspect-auto object-cover"
             />
             <img
               src="/images/partners_2023/descitokyo.webp"
-              alt="DesCi Tokyo"
-              class="m-auto h-20 object-contain md:h-24"
-            />
-            <img
-              src="/images/partners_2023/fractonsq.webp"
-              alt="Fracton SQ"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="descitokyo"
+              class="m-auto aspect-auto object-contain"
             />
             <img
               src="/images/partners_2023/mori.webp"
-              alt="Mori"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="mori"
+              class="m-auto aspect-auto object-contain"
             />
             <img
-              src="/images/partners_2023/questry.webp"
-              alt="Questry"
-              class="m-auto h-20 object-contain md:h-24"
+              src="/images/partners_2023/fractonsq.webp"
+              alt="fractonsq"
+              class="m-auto aspect-auto object-contain"
             />
             <img
               src="/images/partners_2023/refijapan.webp"
-              alt="Refi Japan"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="refijapan"
+              class="m-auto aspect-auto object-contain"
             />
             <img
-              src="/images/partners_2023/tecotec.webp"
-              alt="Tecotec"
-              class="m-auto h-20 object-contain md:h-24"
+              src="/images/partners_2023/hakuhodo.webp"
+              alt="hakuhodo"
+              class="m-auto aspect-auto object-contain"
             />
             <img
-              src="/images/partners_2023/akindo.webp"
-              alt="Akindo"
-              class="m-auto h-20 object-contain md:h-24"
+              src="/images/partners_2023/questry.webp"
+              alt="questry"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/partners_2023/worldcoin.webp"
+              alt="worldcoin"
+              class="m-auto aspect-auto object-contain"
+            />
+          </div>
+        </div>
+        {/* Student's Partners */}
+        <div class="mb-8 space-y-8 py-4 text-center lg:mb-20">
+          <h3 class="text-xl md:p-4">STUDENT'S PARTNERS</h3>
+          <div class="mx-auto grid w-11/12 grid-cols-5 gap-4 lg:w-1/2 lg:gap-8">
+            <img
+              src="/images/partners_2023/hongo.webp"
+              alt="hongo"
+              class="m-auto aspect-auto object-cover"
             />
             <img
               src="/images/partners_2023/wecreate.webp"
-              alt="We Create"
-              class="m-auto h-20 object-contain md:h-24"
-            />
-            <img
-              src="/images/partners_2023/nagoya.webp"
-              alt="Nagoya Blockchain"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="wecreate"
+              class="m-auto aspect-auto object-contain"
             />
             <img
               src="/images/partners_2023/rits.webp"
-              alt="Rits Web3 Lab"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="rits"
+              class="m-auto aspect-auto object-contain"
             />
             <img
-              src="/images/partners_2023/hongo.webp"
-              alt="Hongo Web3 Valley"
-              class="m-auto h-20 object-contain md:h-24"
+              src="/images/partners_2023/nagoya.webp"
+              alt="nagoya"
+              class="m-auto aspect-auto h-full object-cover"
             />
             <img
               src="/images/partners_2023/keio.webp"
-              alt="Keio Web3 Community"
-              class="m-auto h-20 object-contain md:h-24"
+              alt="keio"
+              class="m-auto aspect-auto h-full object-cover"
             />
           </div>
         </div>
@@ -177,10 +242,27 @@ const Hackathon2023Page: Component = () => {
         </div>
         <div class="space-y-4 text-center lg:p-8">
           <h3 class="my-auto text-xl md:text-2xl">Prize</h3>
-          <ul class="space-y-2 md:text-lg">
-            <li>1位：30万円</li>
-            <li>2位：10万円</li>
-            <li>3位：5万円</li>
+          <ul class="mx-auto w-60 space-y-3 md:text-lg">
+            <li class="flex justify-between">
+              <span>グランドプライズ</span>
+              <span>30万円</span>
+            </li>
+            <li class="flex justify-between">
+              <span>テックプライズ</span>
+              <span>10万円</span>
+            </li>
+            <li class="flex justify-between">
+              <span>ビジネスプライズ</span>
+              <span>5万円</span>
+            </li>
+            <li class="flex justify-between">
+              <span>CryptoGames賞</span>
+              <span>5万円</span>
+            </li>
+            <li class="flex justify-between">
+              <span>ERC-6551賞</span>
+              <span>5万円</span>
+            </li>
           </ul>
         </div>
         <div class="lg:p-8">
@@ -194,7 +276,14 @@ const Hackathon2023Page: Component = () => {
             <div class="space-y-4 rounded-xl bg-gray-50 p-8 shadow-md">
               <p class="font-medium leading-8 tracking-wide md:text-lg">
                 12/9（土）12:00 ~ 18:30&emsp;
-                <br class="block md:hidden" />@ 都内会場（未定）
+                <br class="block md:hidden" />@{" "}
+                <a
+                  href="https://tib.metro.tokyo.lg.jp/"
+                  class="text-blue-500 underline decoration-blue-500 decoration-1 underline-offset-4 transition-all duration-200 hover:opacity-70"
+                  target="_blank"
+                >
+                  TIB
+                </a>
               </p>
               <ul class="list-inside list-disc space-y-2 text-sm md:text-base">
                 <li>ReFi インプットセッション</li>
@@ -218,7 +307,11 @@ const Hackathon2023Page: Component = () => {
                 <br class="block md:hidden" />@ オンライン
               </p>
               <ul class="list-inside list-disc space-y-2 text-sm md:text-base">
-                <li>yukiさんによるハンズオンセッション</li>
+                <li>
+                  yukiさんによるハンズオン
+                  <br class="block md:hidden" />
+                  <span class="ml-5 block md:ml-0 md:inline">セッション</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -227,6 +320,30 @@ const Hackathon2023Page: Component = () => {
           <div class="mx-auto grid w-5/6 gap-8 md:grid-cols-1 lg:grid-cols-2">
             <div class="pt-10 lg:p-8">
               <h3 class="my-auto text-lg md:text-2xl md:tracking-wider">
+                DAY 2 - DAY 7 &emsp; 開発期間
+                <span class="mx-auto my-2 block h-0.5 max-w-full bg-black"></span>
+              </h3>
+            </div>
+            <div class="space-y-4 rounded-xl bg-gray-50 p-8 shadow-md">
+              <p class="font-medium leading-8 tracking-wide md:text-lg">
+                12/10（日）~ 12/15（金）
+              </p>
+              <ul class="list-inside list-disc space-y-2 text-sm md:text-base">
+                <li>メンター様との30分面談</li>
+                <li>メンター様への技術的質問</li>
+                <li>
+                  12/15 23:59プロダクト提出
+                  <br class="block md:hidden" />
+                  <span class="ml-5 block md:ml-0 md:inline">締め切り</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="lg:p-8">
+          <div class="mx-auto grid w-5/6 gap-8 md:grid-cols-1 lg:grid-cols-2">
+            <div class="pt-10 lg:order-last lg:p-8">
+              <h3 class="my-auto text-lg md:text-2xl md:tracking-wider">
                 DAY 8 &emsp; フィナーレ
                 <span class="mx-auto my-2 block h-0.5 max-w-full bg-black"></span>
               </h3>
@@ -234,7 +351,14 @@ const Hackathon2023Page: Component = () => {
             <div class="space-y-4 rounded-xl bg-gray-50 p-8 shadow-md">
               <p class="font-medium leading-8 tracking-wide md:text-lg">
                 12/16（土）12:00~18:30&emsp;
-                <br class="block md:hidden" />@ 都内会場（未定）
+                <br class="block md:hidden" />@{" "}
+                <a
+                  href="https://cryptobase.green/"
+                  class="text-blue-500 underline decoration-blue-500 decoration-1 underline-offset-4 transition-all duration-200 hover:opacity-70"
+                  target="_blank"
+                >
+                  CryptoBase
+                </a>
               </p>
               <ul class="list-inside list-disc space-y-2 text-sm md:text-base">
                 <li>プロダクトピッチ</li>
@@ -338,10 +462,22 @@ const Hackathon2023Page: Component = () => {
               company="Co-Founder of Fracton Ventures"
             />
             <Profile
-              src=""
-              alt="Special Guest氏"
-              name="Special Guest"
-              company=""
+              src="/images/judges_2023/nagumo.webp"
+              alt="南雲悠太郎氏"
+              name="南雲 悠太郎"
+              company="CMPS合同会社 Co-Founder"
+            />
+            <Profile
+              src="/images/judges_2023/seto.webp"
+              alt="瀬戸智寛氏"
+              name="瀬戸 智寛"
+              company="CryptoGames株式会社 CTO"
+            />
+            <Profile
+              src="/images/judges_2023/seto.webp"
+              alt="白井寛之氏"
+              name="白井 寛之"
+              company="CryptoGames Blockchain Engineer"
             />
           </div>
         </div>
