@@ -473,12 +473,6 @@ const Hackathon2023Page: Component = () => {
               name="瀬戸 智寛"
               company="CryptoGames株式会社 CTO"
             />
-            <Profile
-              src=""
-              alt="白井寛之氏"
-              name="白井 寛之"
-              company="CryptoGames Blockchain Engineer"
-            />
           </div>
         </div>
         <div class="mx-auto mt-20 w-full lg:mt-10 lg:w-2/3">
