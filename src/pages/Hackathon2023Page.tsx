@@ -71,10 +71,15 @@ const Hackathon2023Page: Component = () => {
         {/* Silver Sponsors */}
         <div class="space-y-4 py-4 text-center">
           <h3 class="text-xl md:p-4">SILVER SPONSORS</h3>
-          <div class="mx-auto grid w-1/2 grid-cols-1 lg:w-1/6">
+          <div class="mx-auto grid w-11/12 grid-cols-2 gap-4 lg:w-1/3 lg:gap-8">
             <img
               src="/images/sponsors_2023/cryptobase.webp"
               alt="CryptoBase"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/sponsors_2023/freebit.webp"
+              alt="freebit"
               class="m-auto aspect-auto object-contain"
             />
           </div>
@@ -108,6 +113,11 @@ const Hackathon2023Page: Component = () => {
               alt="cmps"
               class="m-auto aspect-auto object-contain"
             />
+            <img
+              src="/images/sponsors_2023/tvc.webp"
+              alt="tokyo venture conference"
+              class="m-auto aspect-auto object-contain"
+            />
           </div>
         </div>
         {/* Global Partner */}
@@ -133,7 +143,7 @@ const Hackathon2023Page: Component = () => {
         {/* Global Partners */}
         <div class="space-y-8 py-4 text-center">
           <h3 class="text-xl md:p-4">PARTNERS</h3>
-          <div class="mx-auto grid w-11/12 grid-cols-4 gap-4 lg:w-1/2 lg:gap-8">
+          <div class="mx-auto grid w-11/12 grid-cols-3 gap-4 lg:w-1/2 lg:gap-8">
             <img
               src="/images/partners_2023/astar.webp"
               alt="astar"
@@ -172,6 +182,11 @@ const Hackathon2023Page: Component = () => {
             <img
               src="/images/partners_2023/worldcoin.webp"
               alt="worldcoin"
+              class="m-auto aspect-auto object-contain"
+            />
+            <img
+              src="/images/partners_2023/tib.webp"
+              alt="tib"
               class="m-auto aspect-auto object-contain"
             />
           </div>
@@ -451,9 +466,9 @@ const Hackathon2023Page: Component = () => {
               src="/images/judges_2023/kyakuno.webp"
               alt="客野一樹氏"
               name="客野 一樹"
-              company="筑波大学客員准教授 /"
-              title="ax株式会社取締役CTO"
-              desciption="筑波大学大学院において各種初等関数のハードウェア実装の研究で博士号を取得。株式会社アクセル入社後、アミューズメント市場向けの動画・音声の圧縮アルゴリズムの開発に従事。2018年に世界最高水準の推論速度を実現したAIフレームワーク「ailia SDK」を開発。現在は「ailia SDK」を強みとした機械学習やブロックチェーンに関する新規事業に携わっている。2018年にブロックチェーン事業を展開する株式会社VIPPOOL取締役、2019年に顔認識に独自技術を保有するモーションポートレート株式会社取締役、現在はAIソリューションを提供するax株式会社の取締役CTOを兼任。2014年より筑波大学客員准教授。"
+              company="株式会社アクセル 常務取締役 事業開発グループゼネラルマネージャ /"
+              title="ax株式会社 CTO / 筑波大学客員准教授"
+              desciption="筑波大学大学院において各種初等関数のハードウェア実装の研究で博士号を取得。株式会社アクセル入社後、アミューズメント市場向けの動画・音声の圧縮アルゴリズムの開発に従事。独自のAIフレームワークであるailia SDKを企画、開発。AIを専門に行うax株式会社設立、CTOに就任。現在は先端技術分野を中心にR&Dおよび事業化を行っている。"
             />
             <Profile
               src="/images/judges_2023/kamei.webp"
@@ -501,8 +516,8 @@ const Hackathon2023Page: Component = () => {
             />
             <Profile
               src="/images/members_2023/takagi.webp"
-              alt="高木俊介氏"
-              name="高木 俊介"
+              alt="髙木俊輔氏"
+              name="髙木 俊輔"
               company="本郷web3バレー副代表"
             />
             <Profile
